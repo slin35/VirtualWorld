@@ -1,0 +1,5 @@
+learnopengl.com
+youtube videos (OpenGL 3D Game Tutorial series)
+
+https://learnopengl.com/Getting-started/Camera
+https://www.youtube.com/watch?v=O9v6olrHPwI&t=322s

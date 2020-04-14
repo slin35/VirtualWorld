@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>  
+    div.padded {  
+      padding-top: 0px;  
+      padding-right: 100px;  
+      padding-bottom: 0.25in;  
+      padding-left: 100px;  
+    }  
+
+    table.num_table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    table.num_table td, th {
+      border: 1px solid #dddddd;
+      text-align: middle;
+      padding: 8px;
+    }
+    table.num_table tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style> 
+
+<title>Sherry Lin |  CPE 471</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<br />
+<h1 align="middle">Final Project: Virtual World</h1>
+    <h2 align="middle">Sherry Lin</h2>
+
+    <div class="padded">
+        <p>For the final project, I created a virtual world with articulated creatures interacting with the environment. Here are the highlights of my self-sufficient world. </p>
+
+        
+    <h2 align="middle">Overview of the Virtual World</h2>
+        <p>The virtual world is built inside of a skybox. <p>
+        <p>There are pitch and yaw rotation, strafe left and right, and forward and backward movement added to the view camera controlling by mouse movement. <p>
+        <div align="center">
+            <table style="width=100%">
+                <tr>
+                    <td align="middle">
+                    <img src="images/5-1.png" width="800px" />
+                    <figcaption align="middle">a bird's eye view</figcaption>
+
+                
+                
+                <video width="800" height="600" controls>
+                    <source src="video.mp4" type="video/mp4">
+                
+                
+                </video>
+                
+                </tr>
+             </table>
+        </div>
+
+    <h2 align="middle">Hierarchical Modeling</h2>
+        <p>The cows in my world are built using hierarchical modeling with both meshes and primitives. The head of the cow is a mesh for a deer. The body is stretched sphere. Each leg is formed by two cylinders as the upper and lower part of a leg. </p>
+        <div align="center">
+            <table style="width=100%">
+                <tr>
+                    <td align="middle">
+                    <img src="images/1-1.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+
+                    <td align="middle">
+                    <img src="images/1-2.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+
+
+                </tr>
+            </table>
+        </div>
+
+
+    <h2 align="middle">Texture Mapped Objects</h2>
+    <p> Trees are mapped with texture in order to add more details for the surface. 
+
+    <div align="center">
+            <table style="width=100%">
+                <tr>
+                    <td align="middle">
+                    <img src="images/2-1.png" width="800px" />
+                    <figcaption align="middle">woods</figcaption>
+
+                </tr>
+            </table>
+        </div>
+
+
+    <h2 align="middle">Interactions</h2>
+
+    <p>The cow will poop every 5 seconds from its current butt position. The poop will then fall following a projectile path to the ground at 45 degrees angle. <p>
+    <p>As it hits the ground, grass grows out of the location where the poop lands. 
+
+
+        <div align="center">
+            <table style="width=100%">
+                <tr>
+                    <td align="middle">
+                    <img src="images/3-1.png" width="800px" />
+                    <figcaption align="middle">the cow poops</figcaption>
+
+                    <td align="middle">
+                    <img src="images/3-2.png" width="800px" />
+                    <figcaption align="middle">grass grows</figcaption>
+                </tr>
+                
+            </table>
+        </div>
+
+   <h2 align="middle">Pathing</h2>
+   
+    <p>Cows are walking around in a square path and make turns at the corner of the square. <p>
+    <p>Butterflies are flying around the trees in a circle path and flutuate up and down so that it looks more realistic. <p>
+        <div align="center">
+            <table style="width=100%">
+                <tr>
+                    <td align="middle">
+                    <img src="images/4-1.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+
+                    <td align="middle">
+                    <img src="images/4-2.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+                </tr>
+                <tr>
+                    <td align="middle">
+                    <img src="images/4-3.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+                    
+                    <td align="middle">
+                    <img src="images/4-4.png" width="800px" />
+                    <figcaption align="middle"></figcaption>
+                </tr>
+            </table>
+        </div>
+
+ 
+<h2 align="middle">Lights</h2>
+
+<p align = "center">I have a directional light in the world using Phong shading. <p>
+
+
+
+    
+</div>
+</body>
+</html>
+
+
+
+
